@@ -2,10 +2,6 @@ body {
     background-color: white;
 }
 
-.semafaro {
-    width: 5%;
-}
-
 .titulo {
     color: rgb(80, 11, 95);
     font-size: 40px;
@@ -13,39 +9,46 @@ body {
     text-align: center;
 }
 
-a {
-    color: rgb(80, 11, 95);
-    font-size: 20px;
-}
-
 h1 {
     color: rgb(80, 11, 95);
-    font-size: 35px;
+    font-size: 45px;
     font-family: 'Muli', sans-serif;
     text-align: center;
 }
 
 h2 {
     color: rgb(80, 11, 95);
-    font-size: 25px;
+    font-size: 40px;
     font-family: 'Muli', sans-serif;
+    text-align: center;
+}
+
+.detran {
+    text-align: center;
 }
 
 p {
     font-family: 'Muli', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 26px;
     font-weight: 400;
-    color: black
+    color: black;
+    text-align: justify;
+    margin: 80px;
 }
 
-a {
+nav a {
     color: white;
     font-size: 20px;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
     text-decoration: none;
     margin-right: 30px;
+}
+
+.bandeira {
+    width: 5%;
+    margin-right: 220px;
 }
 
 nav {
@@ -55,21 +58,28 @@ nav {
     z-index: 99;
 }
 
-nav a {
+footer {
+    background-color: rgb(80, 11, 95);
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+}
+
+.rodapé {
     color: white;
-    text-decoration: none;
-    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
     text-align: center;
 }
 
-footer {
-    background-color: rgb(80, 11, 95);
-    font-size: 18px;
-    font-family: 'Muli', sans-serif;
-}
-
 .github {
+    color: white;
     font-size: 18px;
     font-family: 'Muli', sans-serif;
     text-decoration: none;
+    text-align: center;
+}
+
+.mapa {
+    text-align: center;
 }
