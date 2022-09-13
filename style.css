@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+}
+
+.semafaro {
+    width: 5%;
+}
+
+.titulo {
+    color: rgb(80, 11, 95);
+    font-size: 40px;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+}
+
+a {
+    color: rgb(80, 11, 95);
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(80, 11, 95);
+    font-size: 35px;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(80, 11, 95);
+    font-size: 25px;
+    font-family: 'Muli', sans-serif;
+}
+
+p {
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: black
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+nav {
+    background-color: black;
+}
+
+footer {
+    background-color: rgb(80, 11, 95);
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+}
+
+.github {
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+}
