@@ -4,26 +4,66 @@ body {
 
 .titulo {
     color: rgb(80, 11, 95);
-    font-size: 40px;
-    font-family: 'Muli', sans-serif;
+    font-size: 50px;
+    font-family: sans-serif;
     text-align: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    background-color: rgb(80, 11, 95);
+}
+
+.bandeira {
+    min-width: 10px;
+    max-width: 75px;
+}
+
+nav a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-left: 50px;
+    text-decoration: none;
 }
 
 h1 {
     color: rgb(80, 11, 95);
+    font-family: sans-serif;
     font-size: 45px;
-    font-family: 'Muli', sans-serif;
     text-align: center;
 }
 
 h2 {
     color: rgb(80, 11, 95);
+    font-family: sans-serif;
     font-size: 40px;
-    font-family: 'Muli', sans-serif;
     text-align: center;
 }
 
-.detran {
+p {
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: justify;
+    margin: 80px;
+}
+
+img {
+    width: 100%;
+}
+
+.transito {
+    min-width: 320px;
+    max-width: 800px;
+}
+
+.img-transito {
     text-align: center;
 }
 
@@ -32,88 +72,49 @@ h2 {
 }
 
 .frota-img {
-    width: 45%;
+    min-width: 320px;
+    max-width: 800px;
 }
 
-.transito {
-    width: 55%;
-}
-
-.img-transito {
+.detran {
     text-align: center;
 }
 
-p {
-    font-family: 'Muli', sans-serif;
-    font-size: 22px;
-    line-height: 26px;
-    font-weight: 400;
-    color: black;
-    text-align: justify;
-    margin: 80px;
-}
-
-nav a {
-    color: white;
-    font-size: 20px;
-    font-family: 'Muli', sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    margin-right: 30px;
-    text-align: center;
-}
-
-.bandeira {
-    width: 5%;
-    margin-right: 21%;
-}
-
-nav {
-    width: 100%;
-    display: flex;
-    background-color: rgb(80, 11, 95);
-    z-index: 99;
-}
-
-footer {
-    background-color: rgb(80, 11, 95);
-    width: 100%;
-    font-size: 18px;
-    font-family: 'Muli', sans-serif;
-}
-
-.rodapé {
-    color: white;
-    font-size: 18px;
-    font-family: 'Muli', sans-serif;
-    text-align: center;
-}
-
-.github {
-    color: white;
-    font-size: 18px;
-    font-family: 'Muli', sans-serif;
-    text-decoration: none;
-    text-align: center;
-}
-
-.instagram {
-    color: white;
-    font-size: 18px;
-    font-family: 'Muli', sans-serif;
-    text-decoration: none;
-    text-align: center;
-}
-
-.twitter {
-    color: white;
-    font-size: 18px;
-    font-family: 'Muli', sans-serif;
-    text-decoration: none;
-    text-align: center;
+.detran-img {
+    min-width: 320px;
+    max-width: 800px;
 }
 
 .mapa {
     text-align: center;
 }
 
+footer {
+    background-color: rgb(80, 11, 95);
+}
+
+.rodapé {
+    color: white;
+    text-align: center;
+}
+
+.github {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.instagram {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.twitter {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
