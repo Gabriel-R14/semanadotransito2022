@@ -27,6 +27,22 @@ h2 {
     text-align: center;
 }
 
+.frota {
+    text-align: center;
+}
+
+.frota-img {
+    width: 45%;
+}
+
+.transito {
+    width: 55%;
+}
+
+.img-transito {
+    text-align: center;
+}
+
 p {
     font-family: 'Muli', sans-serif;
     font-size: 22px;
@@ -44,11 +60,12 @@ nav a {
     font-weight: bold;
     text-decoration: none;
     margin-right: 30px;
+    text-align: center;
 }
 
 .bandeira {
     width: 5%;
-    margin-right: 220px;
+    margin-right: 21%;
 }
 
 nav {
@@ -80,6 +97,23 @@ footer {
     text-align: center;
 }
 
+.instagram {
+    color: white;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.twitter {
+    color: white;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
 .mapa {
     text-align: center;
 }
+
