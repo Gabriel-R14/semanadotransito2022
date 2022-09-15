@@ -4,37 +4,34 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title id="home">Segurança no Trânsito (RS)</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="reset.css">
+        <title>Segurança no Trânsito (RS)</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
         <link rel="shortcut icon" href="assets/img/semafaro.ico" type="image/x-icon">
     </head>
     <body>
         <header>
-            <br>
-            <h1 class="titulo">Semana do Trânsito 2022 (Rio Grande do Sul)</h1>
-            <br>
-            <div class="nav">
-                <nav>
-                    <ul>
+                <nav class="nav">
+                    <div class="navbar-container">
                         <img class="bandeira" src="https://s5.static.brasilescola.uol.com.br/be/2021/04/bandeira-do-rio-grande-do-sul.jpg" alt="Bandeira RS">
-                        <a href="#home">Home</a>
-                        <a href="#estado">Info Geográficas</a>
-                        <a href="#estatisticas">Estatísticas</a>
-                        <a href="#dicas">Dicas</a>
-                        <a href="#mapa">Live Timing</a>
-                        <a href="#contato">Contato</a>
-                    </ul>
+                        <h1 class="logo">Semana do Trânsito 2022 (RS)</h1>
+                        <ul class="navbar-itens">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#estado">Info Geográficas</a></li>
+                            <li><a href="#estatisticas">Estatísticas</a></li>
+                            <li><a href="#dicas">Dicas</a></li>
+                            <li><a href="#mapa">Live Timing</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
                 </nav>
-            </div>
         </header>
-        <br>
-        <h1>Segurança no Trânsito</h1>
-        <p>Como sabemos é importante manter um tráfego de veículos seguro, e para isso criamos este artigo com dicas de segurança, dados essenciais sobre o trânsito e um acompanhamento em tempo real do tráfego na capital gaúcha Porto Alegre.</p>
+        <h1 id="home">Segurança no Trânsito</h1>
+        <p>Como sabemos é importante manter um tráfego seguro de veículos, e para isso criamos este artigo com dicas de segurança, dados essenciais sobre o trânsito e um acompanhamento em tempo real do tráfego na capital gaúcha Porto Alegre.</p>
         <div class="img-transito">
             <img class="transito" src="https://gruposetainspecao.com.br/admin/institucional-noticias/foto-capa/2.jpg" alt="Img Trânsito">
         </div>
-        <br>
         <h2 id="estado">Sobre o Estado</h2>
         <p>
             O Rio Grande do Sul é o 5º estado mais populoso, tendo uma população estimada (2021) de 11.466.630 pessoas. Ele também é o 4º estado com mais veículos no país em 2021 (7.689.278), sendo a maior parte composta por carros e motocicletas.
@@ -42,7 +39,6 @@
         <div class="frota">
             <img class="frota-img" src="https://estado.rs.gov.br/upload/recortes/201901/08160637_1596254_GDO.jpg" alt="frota">
         </div>
-        <br>
         <h2 id="estatisticas">Acidentes e Óbitos</h2>
         <p>
             De acorodo com os dados do Detran 2014 foi o ano mais letal para os motoristas no Rio Grande do Sul nos últimos 9 anos, tendo ocorrido 2023 mortes em vias federais, estaduais e municipais, enquanto isso em 2020 ocorreu o menor número de mortes, 1462, devido a pandemia houve diversas restrições para a circulação de veículos em todo o país, porém foram somente 154 mortes a menos que o ano anterior (2019). 
@@ -50,8 +46,6 @@
         <div class="detran">
             <img class="detran-img" src="assets/img/mortesDetran.jpg" alt="Gráfico de mortes Detran">
         </div>
-        <br>
-        <br>
         <h2 id="dicas">Dicas de Segurança</h2>
         <p>
             Planeje a sua viagem, incluindo as paradas para alimentação e abastecimento. Dirija com tranquilidade e evite trafegar cansado ou com sono. Revezar a direção com outra pessoa ou fazer uma pausa para dormir são boas alternativas.
@@ -79,19 +73,16 @@
             <br>
             <br>
             Tenha muita atenção no trânsito. Ao dirigir, nunca manuseie o telefone celular. Cuide dos pedestres, dos ciclistas e dos animais.
-        <br>
         <h2 id="mapa">Mapa em Tempo Real</h2>
-        <br>
         <div class="mapa">
             <iframe src="https://embed.waze.com/iframe?zoom=14&lat=-30.052640&lon=-51.178093&ct=livemap" width="900" height="550" allowfullscreen></iframe>
         </div>
-        <br>
         </p>
-            <footer id="contato">
+        <footer id="contato">
             <p class="rodapé">
-                Desenvolvido por: Gabriel 9ºC
-                <br>
-                <br>
+                Desenvolvido por: Gabriel 9ºC                
+            </p>
+            <p class="social-media">
                 <img class="github-logo" src="assets/img/github-logo.png" alt="GitHub-Logo">
                 <a style="margin-right: 50px;" class="github" href="https://github.com/Gabriel-R22">GitHub</a>
                 <img class="instagram-logo" src="assets/img/insta-logo.png" alt="Instagram-Logo">
@@ -99,6 +90,6 @@
                 <img class="twitter-logo" src="assets/img/twitter-logo.png" alt="Twitter-Logo">
                 <a class="twitter" href="https://twitter.com/Ga_briel_R22">Twitter</a>
             </p>
-            </footer>
+        </footer>
     </body>
 </html>
