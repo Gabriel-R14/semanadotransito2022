@@ -1,9 +1,6 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background-color: white;
+    width: 100%;
 }
 
 .titulo {
@@ -99,7 +96,12 @@ footer {
 
 .rodapé {
     color: white;
+    font-weight: 520;
     text-align: center;
+}
+
+.github-logo {
+    max-width: 30px;
 }
 
 .github {
@@ -109,11 +111,19 @@ footer {
     font-weight: bold;
 }
 
+.instagram-logo {
+    max-width: 30px;
+}
+
 .instagram {
     color: white;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
+}
+
+.twitter-logo {
+    max-width: 30px;
 }
 
 .twitter {
