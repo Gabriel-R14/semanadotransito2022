@@ -1,0 +1,189 @@
+body {
+    background-color: white;
+}
+
+.titulo {
+    color: rgb(80, 11, 95);
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(80, 11, 95);
+    position: fixed;
+}
+
+.bandeira {
+    max-width: 75px;
+}
+
+.logo {
+    font-size: 1rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+.navbar-container {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-itens {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-itens li {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.navbar-itens a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 530;
+}
+
+#home {
+    color: rgb(80, 11, 95);
+    font-family: sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+h1 {
+    color: rgb(80, 11, 95);
+    font-family: sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(80, 11, 95);
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+p {
+    color: black;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: justify;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+img {
+    width: 100%;
+}
+
+.transito {
+    min-width: 320px;
+    max-width: 700px;
+}
+
+.img-transito {
+    text-align: center;
+}
+
+.frota {
+    text-align: center;
+}
+
+.frota-img {
+    min-width: 320px;
+    max-width: 700px;
+}
+
+.detran {
+    text-align: center;
+}
+
+.detran-img {
+    min-width: 320px;
+    max-width: 700px;
+}
+
+#mapa {
+    padding-top: 80px;
+}
+
+.mapa {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#contato {
+    background-color: rgb(80, 11, 95);
+    height: 80px;
+    text-align: center;
+}
+
+.rodapé {
+    color: white;
+    padding: 30px;
+    font-weight: 520;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    padding-top: 5px;
+}
+
+.social-media {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.github-logo {
+    max-width: 30px;
+}
+
+.github {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.instagram-logo {
+    max-width: 30px;
+}
+
+.instagram {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.twitter-logo {
+    max-width: 30px;
+}
+
+.twitter {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
