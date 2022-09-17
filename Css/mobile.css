@@ -1,0 +1,62 @@
+.nav {
+    height: 220px;
+    position: absolute
+}
+
+@media screen and (min-width: 766px) {
+    .nav {
+        height: 80px;
+        position: fixed;
+    }
+
+    .bandeira {
+        max-width: 75px;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .navbar-itens a {
+        font-size: 1.1rem;
+    }
+
+    .navbar-itens li {
+        padding: 10px;
+    }
+}
+
+.bandeira {
+    max-width: 50px;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.navbar-itens a {
+    font-size: 10px;
+}
+
+.navbar-itens li {
+    padding: 0;
+}
+
+#home {
+    font-size: 30px;
+    padding-top: 300px;
+}
+
+img {
+    width: 70%;
+}
+
+p {
+    font-size: 19px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+h2 {
+    font-size: 35px;
+}
